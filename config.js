@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://devlue.github.io',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog | Devlue',
+  subtitle: '준비중',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,15 +25,15 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'SeokJae Kang',
+    photo: '/001.jpg',
+    bio: '준비중',
     contacts: {
-      email: '',
-      facebook: '#',
+      email: 'devlue92@gmail.com',
+      facebook: 'devlue92',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'devlue',
       rss: '',
       vkontakte: '',
       linkedin: '#',
