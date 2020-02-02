@@ -118,16 +118,7 @@
   Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
   Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
   Link: </component---src-templates-page-template-js-30c9f68011554c8c6d0c.js>; rel=preload; as=script
-/posts/the-birth-of-movable-type
-  Link: </webpack-runtime-e825a9127f8a132c8331.js>; rel=preload; as=script
-  Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
-  Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
-  Link: </netlify-identity-widget-8e6f024872c0d48ae324.js>; rel=preload; as=script
-  Link: </app-b7bff76b3d3cdde53135.js>; rel=preload; as=script
-  Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
-  Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-5f449cae0bb2fa9985ef.js>; rel=preload; as=script
-/posts/opengl-0
+/posts/a-brief-history-of-typography
   Link: </webpack-runtime-e825a9127f8a132c8331.js>; rel=preload; as=script
   Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
   Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
@@ -145,7 +136,7 @@
   Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
   Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-5f449cae0bb2fa9985ef.js>; rel=preload; as=script
-/posts/a-brief-history-of-typography
+/posts/start-blog
   Link: </webpack-runtime-e825a9127f8a132c8331.js>; rel=preload; as=script
   Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
   Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
@@ -154,7 +145,16 @@
   Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
   Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-5f449cae0bb2fa9985ef.js>; rel=preload; as=script
-/posts/start-blog
+/posts/opengl-0
+  Link: </webpack-runtime-e825a9127f8a132c8331.js>; rel=preload; as=script
+  Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
+  Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-8e6f024872c0d48ae324.js>; rel=preload; as=script
+  Link: </app-b7bff76b3d3cdde53135.js>; rel=preload; as=script
+  Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
+  Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-5f449cae0bb2fa9985ef.js>; rel=preload; as=script
+/posts/the-birth-of-movable-type
   Link: </webpack-runtime-e825a9127f8a132c8331.js>; rel=preload; as=script
   Link: </styles-890745447a44eb4c0eb2.js>; rel=preload; as=script
   Link: </commons-cbf82ac2b47ab352be9a.js>; rel=preload; as=script
