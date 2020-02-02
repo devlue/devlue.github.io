@@ -29,7 +29,7 @@ module.exports = {
     photo: '/001.jpg',
     bio: '준비중',
     contacts: {
-      email: 'devlue92@gmail.com',
+      email: '',
       facebook: 'devlue92',
       telegram: '#',
       twitter: '#',
