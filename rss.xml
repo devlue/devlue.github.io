@@ -1,4 +1,1299 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog | Devlue]]></title><description><![CDATA[준비중]]></description><link>https://devlue.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 Feb 2020 15:26:11 GMT</lastBuildDate><item><title><![CDATA[OpenGL 강좌 _ 0강. 개요]]></title><link>https://devlue.github.io/posts/opengl-0</link><guid isPermaLink="false">https://devlue.github.io/posts/opengl-0</guid><pubDate>Wed, 12 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog | Devlue]]></title><description><![CDATA[준비중]]></description><link>https://devlue.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 Feb 2020 17:13:24 GMT</lastBuildDate><item><title><![CDATA[2018년 회고, 2019년 계획]]></title><link>https://devlue.github.io/posts/diary-2018</link><guid isPermaLink="false">https://devlue.github.io/posts/diary-2018</guid><pubDate>Wed, 26 Dec 2018 13:35:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;분기별-정리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B6%84%EA%B8%B0%EB%B3%84-%EC%A0%95%EB%A6%AC&quot; aria-label=&quot;분기별 정리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;분기별 정리&lt;/h4&gt;
+&lt;h5 id=&quot;1분기-20181---20183&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1%EB%B6%84%EA%B8%B0-20181---20183&quot; aria-label=&quot;1분기 20181   20183 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1분기 (2018.1 - 2018.3)&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;B2B 프로젝트 진행건으로 밤샘작업이 많았음&lt;/li&gt;
+&lt;li&gt;3개월 다니던 수영을 접음 (배영하고 접어서 배만 나오기 시작함)&lt;/li&gt;
+&lt;li&gt;Urbanbase 사무실 이사 (신사 가로수길 → Sparkplus 역삼점)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;2분기-20184---20186&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2%EB%B6%84%EA%B8%B0-20184---20186&quot; aria-label=&quot;2분기 20184   20186 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2분기 (2018.4 - 2018.6)&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Web 3D Front-End Developer에서 3D Graphics Engineer로 직무 변경 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;추가) Platform 개발로 인한 BE - FE - 3D Graphics Engine 풀스택 데이터 처리 포함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Business Trip : &lt;a href=&quot;https://www.mwcshanghai.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;MWC Shanghai 2018&lt;/a&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;대륙의 스케일 : B, C급 콘텐츠의 쓰나미와 같다랄까? &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;3분기-20187---20189&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3%EB%B6%84%EA%B8%B0-20187---20189&quot; aria-label=&quot;3분기 20187   20189 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3분기 (2018.7 - 2018.9)&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Urbanbase 사무실 이사 (Sparkplus 역삼점 → 선릉점)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이쯤되면 유목민 생활 (2년간의 횡보:방배-신사-역삼-선릉)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;4분기-201810---201812&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4%EB%B6%84%EA%B8%B0-201810---201812&quot; aria-label=&quot;4분기 201810   201812 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4분기 (2018.10 - 2018.12)&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Facebook Innovation Lab Korea 에서 &lt;a href=&quot;https://innovationlab181010vrarclass.splashthat.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;VR/AR 개발 톺아보기&lt;/a&gt;의 주제로 강의&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;개발자한테 3D를 설명하는 것은 어려운 것임 &lt;code class=&quot;language-text&quot;&gt;(개발자에게 TMI)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;일반인한테 3D를 설명하는 것은 더더욱 어려운 것임 &lt;code class=&quot;language-text&quot;&gt;(일반인에게 TTTTTMI)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;느낀점 1 : 이론적인 부분과 실용적인 부분에는 항상 넘지못할 벽이 있음&lt;/li&gt;
+&lt;li&gt;느낀점 2 : 실용적인 부분을 알기 위해서는 이론적인 부분이 동반되어야 함&lt;/li&gt;
+&lt;li&gt;느낀점 3 : 누가 얘기해서 알려주는 것은 양적으로나 시간적으로나 한계가 있음&lt;/li&gt;
+&lt;li&gt;블로그로 글을 정리해서 알려주는게 낫겠다라는 생각이 문득 든 시점&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Blog 유목민 생활 후 정착 ( Tistory → Github Page )&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://devlue.github.io&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Paroblow Github Blog&lt;/a&gt; 블로그 활동 시작&lt;/li&gt;
+&lt;li&gt;Masonry Layout 추가&lt;/li&gt;
+&lt;li&gt;없는 기능 + 스타일 손봐야 할 게 많음    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;2019년-계획&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2019%EB%85%84-%EA%B3%84%ED%9A%8D&quot; aria-label=&quot;2019년 계획 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2019년 계획&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;일단 블로깅을 열심히…&lt;/li&gt;
+&lt;li&gt;Technical Artist 급은 아니어도 내가 아는 기술을 어떻게든 공유할 생각&lt;/li&gt;
+&lt;li&gt;어쨌든 2019년 1년간은 달려야한다 ( 시간도, 기회도 만들어지는 시기 )&lt;/li&gt;
+&lt;li&gt;계획성이라고는 별로 없긴 하지만 위험요소는 예지하고 있기에 YOLO 말고 JJOLBO 생활 계속…&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Unity3D _ 2018.3 WebGL 업데이트 정보]]></title><link>https://devlue.github.io/posts/unity3d_2018_3_webgl</link><guid isPermaLink="false">https://devlue.github.io/posts/unity3d_2018_3_webgl</guid><pubDate>Tue, 25 Dec 2018 03:11:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;20183&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#20183&quot; aria-label=&quot;20183 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2018.3&lt;/h4&gt;
+&lt;h5 id=&quot;-backwards-compatibility-breaking-changes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-backwards-compatibility-breaking-changes&quot; aria-label=&quot; backwards compatibility breaking changes permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* Backwards Compatibility Breaking Changes&lt;/h5&gt;
+&lt;p&gt;Web: WWW is now obsolete. Use UnityWebRequest instead.&lt;/p&gt;
+&lt;p&gt;WebGL: Added asm.js deprecation warning.&lt;/p&gt;
+&lt;p&gt;WebGL: Enabled WebAssembly traps in Development builds.&lt;/p&gt;
+&lt;p&gt;WebGL: Removed caching support for compiled WebAssembly module.&lt;/p&gt;
+&lt;p&gt;WebGL: Unity no longer uses glGetProcAddress internally.&lt;/p&gt;
+&lt;p&gt;WebGL: WebAssembly is now the default Linker Target on new WebGL projects.&lt;/p&gt;
+&lt;h5 id=&quot;-improvements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-improvements&quot; aria-label=&quot; improvements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* Improvements&lt;/h5&gt;
+&lt;p&gt;Scripting: Added the status code and name of the error (rather than a generic message) to the error property of UnityWebRequest when it encounters an HTTP error.&lt;/p&gt;
+&lt;p&gt;Web: UnityWebRequest now supports cookies in the same game session. Added API to remove them.&lt;/p&gt;
+&lt;h5 id=&quot;-api-changes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-api-changes&quot; aria-label=&quot; api changes permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* API Changes&lt;/h5&gt;
+&lt;p&gt;WebGL: Fixed canvas resize when using Linear color space. (977579)&lt;/p&gt;
+&lt;p&gt;WebGL: Fixed integer overflow on start-up when Performance Reporting is enabled. (1085302)&lt;/p&gt;
+&lt;p&gt;WebGL: Fixed mouse input simulation when using touch inputs. (970812)&lt;/p&gt;
+&lt;p&gt;WebGL: Fixed Unity WebGL content termination. Calling Application.Quit() will stop execution.&lt;/p&gt;
+&lt;p&gt;WebGL: Fixed WebCamTexture device name (894564)&lt;/p&gt;
+&lt;p&gt;WebGL: Fixed UnityLoader.js memory leak.&lt;/p&gt;
+&lt;p&gt;WebGL: Replace usage of deprecated WebAudio gain/playbackRate.value with setValueAtTime() (965647)&lt;/p&gt;
+&lt;p&gt;WebGL: Replace usage of deprecated WebAudio listener setPosition/setOrientation with position/forward/up.setValueAtTime() (1003912)&lt;/p&gt;
+&lt;p&gt;WebGL: Workaround for audio not working in Chrome (as of version 66) until the user interacts with the page. (1003917)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Unity3D _ 2018.2 WebGL 업데이트 정보]]></title><link>https://devlue.github.io/posts/unity3d_2018_2_webgl</link><guid isPermaLink="false">https://devlue.github.io/posts/unity3d_2018_2_webgl</guid><pubDate>Tue, 25 Dec 2018 02:57:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;20182&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#20182&quot; aria-label=&quot;20182 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2018.2&lt;/h4&gt;
+&lt;h5 id=&quot;-backwards-compatibility-breaking-changes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-backwards-compatibility-breaking-changes&quot; aria-label=&quot; backwards compatibility breaking changes permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* Backwards Compatibility Breaking Changes&lt;/h5&gt;
+&lt;p&gt;WebGL: Allow WebAssembly heap to grow&lt;/p&gt;
+&lt;p&gt;WebGL: Configured toolchain so it does not generate WebAssembly trapping instructions.&lt;/p&gt;
+&lt;p&gt;WebGL: Enable Data Caching option in new projects&lt;/p&gt;
+&lt;p&gt;WebGL: Upgraded toolchain to emscripten 1.37.33 and binaryen 42&lt;/p&gt;
+&lt;p&gt;WebGL: WebAssembly is the default Linker Target on new projects&lt;/p&gt;
+&lt;h5 id=&quot;-improvements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-improvements&quot; aria-label=&quot; improvements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* Improvements&lt;/h5&gt;
+&lt;p&gt;Editor: Added UWP and WebGL support in the Test Runner&lt;/p&gt;
+&lt;p&gt;WebGL: Add indexedDB caching support for all build files in WebGL. Add indexedDB caching support for compiled WebAssembly code.&lt;/p&gt;
+&lt;p&gt;WebGL: Make StreamingAssets path configurable via UnityLoader.instantiate() parameters&lt;/p&gt;
+&lt;h5 id=&quot;-fixed&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-fixed&quot; aria-label=&quot; fixed permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* Fixed&lt;/h5&gt;
+&lt;p&gt;Web: Fix exception in UnityWebRequest on empty url (981192)&lt;/p&gt;
+&lt;p&gt;Web: Fix native UnityWebRequest not destroyed until garbage collected even if explicitly disposed (984996)&lt;/p&gt;
+&lt;p&gt;Web: Fix UnityWebRequest not aborted if Abort() called before sending (977469)&lt;/p&gt;
+&lt;p&gt;Web: Fix UnityWebRequest with file URIs containing query or fragment (992937)&lt;/p&gt;
+&lt;p&gt;WebGL: Fix ‘/b’ added to inputString on keyup event (981495)&lt;/p&gt;
+&lt;p&gt;WebGL: Fix mouse button state after mouse drag (905712)&lt;/p&gt;
+&lt;p&gt;WebGL: Fix playBuffer exception when there is no audio output on Safari (960863)&lt;/p&gt;
+&lt;p&gt;WebGL: Fix Webcam support on Firefox and Safari (1005628)&lt;/p&gt;
+&lt;p&gt;WebGL: Make StreamingAssets path relative to the generated json (951333)&lt;/p&gt;
+&lt;h4 id=&quot;-201829f&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-201829f&quot; aria-label=&quot; 201829f permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* 2018.2.9f&lt;/h4&gt;
+&lt;p&gt;(1057185) - Web: UnityWebRequest: Fixed handling 300 redirect without Location header.&lt;/p&gt;
+&lt;h4 id=&quot;-2018216f&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-2018216f&quot; aria-label=&quot; 2018216f permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* 2018.2.16f&lt;/h4&gt;
+&lt;p&gt;IL2CPP: Add support for CultureInfo in WebGL when exceptions are disabled. (1083520)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[HTML/Markdown 자주쓰는 특수문자 표기법]]></title><link>https://devlue.github.io/posts/html-markdown</link><guid isPermaLink="false">https://devlue.github.io/posts/html-markdown</guid><pubDate>Fri, 21 Dec 2018 00:59:00 GMT</pubDate><content:encoded>&lt;p&gt;HTML / Markdown 자주쓰는 특수문자 표기법입니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;사용하실 때 문자 끝에 ;(세미콜론) 표기하는거 잊지마세요.&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;표현문자&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;문자표현&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;”&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;”&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&amp;#x26;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&amp;#x26;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&amp;#x3C;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&amp;#x3C;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;Non-breaking space (띄어쓰기)&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;¡&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&amp;#x26;excl&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;￠ (센트)&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;¢&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;￡ (파운드)&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;£&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;￥ (엔)&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;¥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;ⓒ (저작권)&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;©&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;±&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;±&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;²&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;²&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;³&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;³&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;°&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;°&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;½&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;½&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;¼&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;¼&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;¾&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;¾&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[OpenGL 강좌 _ 4강. 2D Animation]]></title><link>https://devlue.github.io/posts/opengl-4</link><guid isPermaLink="false">https://devlue.github.io/posts/opengl-4</guid><pubDate>Thu, 20 Dec 2018 23:34:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 810px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9eaff6935d62c678f3b8befc7441953a/d7542/opengl_4_0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.93827160493827%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACiUlEQVQoz22T60/aUBiH+X8WB5aWXk5bunIRjXHZHJsTQZiUTbk5BeMMLvECKtBsYcvUuI1lF6P7sA9CBR2guI1NjfMD/9DeAtGgS5407cl5znvO+b3VjGxUx7I/vRtV6e1RC3jP1kbS267Bhy6H47+4nU7X0JBm9P2PPnnfurxrWym0WFZscsUSTAkMLfC8wHHXMbKsz+vVSBtHIAiLeTGutFjMicky75mhMS1JGBBF0QYDRRAMSV4AI57hYQ3ssztZuBXPmxJKi3jOnD7gBvy8QW8xW0gch9kcQrDKBTDyyO2+lC1Lu+YltbIJFlrZ5++4SV2HJPl6bDZ7f/8Tnw/TakFjafqqLMbz7PwOv5AzJxRRrZ/neuwUphN4YzQSkeV0b3c3jxA4Br0e/DYZntHN4/DH2vinmjVZFOe+saKNpyltR0c0Gj07+7u2unp+fr6rKH29vRSOQ/FLuU/eG3hdvi3vw4s1uSc+30IMy1IUSRB2+73KQeXk9LRer1erVTmd1ut0UFyVIee7L7+71w9dqwewECT34M2RMPUOkSTMwDFs0OFYW18rlUrFYjGbzb7KZDiGads2XDJE3bVS6FpWrKmSEHqBDDgLR8Nxs9kUTyQymczE5MTW9nbA76dJEl25bbinZsimVFmQ5hCOsYwqezweSZJis7HpZ9NOpxPaA0JuO/NlzmrIFePQJKPXso3tdVks4+HwbCzm80rQcDDSFlVPqiAm8hCySgLksvH+Y4TrWAbBsaG3oD4kRGBYM+dm1KoMvwQURHM73HyuxYJC2uzEzRtEQwDtAvhsgnd2qu3p//Br5uvJxJffkc0/DY4jn2vhqdnQ2GgoEAwFAtcJ+v1Pw2HouX9W4GtGHeVgKgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/9eaff6935d62c678f3b8befc7441953a/d7542/opengl_4_0.png&quot;
+        srcset=&quot;/static/9eaff6935d62c678f3b8befc7441953a/8ff5a/opengl_4_0.png 240w,
+/static/9eaff6935d62c678f3b8befc7441953a/e85cb/opengl_4_0.png 480w,
+/static/9eaff6935d62c678f3b8befc7441953a/d7542/opengl_4_0.png 810w&quot;
+        sizes=&quot;(max-width: 810px) 100vw, 810px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* 각각의 강의에서 쓰이는 메서드의 내용은 조금씩 달라질 수 있기 때문에 마지막 전체코드를 확인하여주시기 바랍니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;1-강의-설명&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EA%B0%95%EC%9D%98-%EC%84%A4%EB%AA%85&quot; aria-label=&quot;1 강의 설명 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 강의 설명&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;/posts/opengl-2&quot;&gt;OpenGL 강좌 : 2강. 2D Programming&lt;/a&gt; 코드를 기본으로 다음 강의를 시작하겠습니다.&lt;/p&gt;
+&lt;p&gt;이번에 배울 내용은 Animation에 대한 내용으로 &lt;code class=&quot;language-text&quot;&gt;glutTimerFunc&lt;/code&gt;이 돌아가는 예시를 설명합니다.&lt;/p&gt;
+&lt;h4 id=&quot;2-전역-변수-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%A0%84%EC%97%AD-%EB%B3%80%EC%88%98-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;2 전역 변수 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 전역 변수 추가&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt; degree&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;degree&lt;/code&gt;는 현재 도형의 angle 값을 나타내며, 라디안(Radian) 값이 아닌 °(Degree)를 나타냅니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;3-메서드-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;3 메서드 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 메서드 추가&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;timer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	degree &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;degree &lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;360.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+		degree &lt;span class=&quot;token operator&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;360.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;glutTimerFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; timer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutPostRedisplay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;timer&lt;/code&gt;(임의변경가능) 메서드는 &lt;code class=&quot;language-text&quot;&gt;glutTimerFunc&lt;/code&gt;의 두번째 인자로 들어가는 메서드입니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;glutTimerFunc&lt;/code&gt;은 &lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;timer&lt;/code&gt;에서 각각 호출되어 1000 밀리세컨드 / 30 ( 1초에 30번 갱신 : 30 fps )로 작동합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;4-main-메서드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-main-%EB%A9%94%EC%84%9C%EB%93%9C&quot; aria-label=&quot;4 main 메서드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. main 메서드&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Main program entry point&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; argc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; argv&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutInit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;argc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; argv&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Initialize GLUT Library&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutInitDisplayMode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GLUT_SINGLE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; GLUT_RGB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Set Display Mode &lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutInitWindowSize&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// width 600, height 600&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutCreateWindow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;GL3&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Create new Window App &quot;GL3&quot;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutDisplayFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;RenderScene&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutReshapeFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ChangeSize&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;glutTimerFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; timer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;Init&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;glutMainLoop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// GLUT, GL Routine&lt;/span&gt;
+
+	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;5-결과물&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EA%B2%B0%EA%B3%BC%EB%AC%BC&quot; aria-label=&quot;5 결과물 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 결과물&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/edcd33897f9d64920087054d4d7ea103/opengl_4_1.gif&quot; alt=&quot;Image&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;6-전체코드-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#6-%EC%A0%84%EC%B2%B4%EC%BD%94%EB%93%9C-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;6 전체코드 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6. 전체코드 확인&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/paroblow/f0e6cbb2487cf817653993f923111ce9.js&quot;&gt;&lt;/script&gt;</content:encoded></item><item><title><![CDATA[OpenGL 강좌 _ 3강. 2D Mouse Interaction]]></title><link>https://devlue.github.io/posts/opengl-3</link><guid isPermaLink="false">https://devlue.github.io/posts/opengl-3</guid><pubDate>Thu, 20 Dec 2018 00:44:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6efa61e0d136d5aef2935800886bcc7c/8c557/opengl_3_0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACjklEQVQoz22SW0/acBjG+UITOdjS0hYoVqYykKhZVKCcFbcBOrYsUy+mgmAtug24EJFtyRZ3sV1Ma4HBghwWduMSP9HeUmTqlvxC/ml43uc9PAr/4cVyqRMotIJH1xSawVI3kPnCLsyxLjfrct3B7XR6WRYeiqXjto2vMqlzS1rskxIs/A8mum/EECNFGUnyvwQDAUWg0LyfFo3bZ3RC6LN9SqdrlG8dUw/rRhAcRQEM6T8GeNxuRfCoOb4r0okzc1Lokzgd5WrU3BMS0YwxDMhIHKcIgsAwQK/TyUDnsrhsSpyN9pTgDGIzV6ccHkR5zx8ITo6PTzscy+GwamgINFDojhicBWrrFJof3RGkLnZEcmIW2iYJ8lk8znGc3WqFOfUYhmg0sr8khpknuLL/sBn/2I28/xn90GFSIr35lTBPkDpErVSurK5c/r7Mvs3+6nYFQZiy2VCtFvTXzmnxwV5l9nVtcq9s58uW3app/RNBGgkdCv+bnpmu1+udTufq6qrRaGR4XjM8DM3L4hacBwYOl9r+QnPm4LshWaZfHOtRFMpr1er5hfl8Pl+pVERRLBaLuWwWvsO2JTEIpjLV8HH70bvOY6DUfphvGaJv9CNqAsfB2WymkzvJXC73NL568vkkFouB8u/MVq5sz1Sn9qs2vmLnK9aDhmFxW6+VxLAer9e7FA6vb2y8XFvz+X0GOBmC3Nq2vGo4mHHrGyTEwD7HtSoCA2vUwjDRSGRz89ViMGSiqFt3lhNmGoSkd2RyJoSplbhOmg3MtSoVLAl+b+ZMShhMa+erY6lzKCEBj70a7XD3gm2A24LbgJvZDsnZhlVB86Fiq0c7VLjwLsU883NQ2+Ny/QvrdPpYFtr+A+cka8IGlqC7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/6efa61e0d136d5aef2935800886bcc7c/8c557/opengl_3_0.png&quot;
+        srcset=&quot;/static/6efa61e0d136d5aef2935800886bcc7c/8ff5a/opengl_3_0.png 240w,
+/static/6efa61e0d136d5aef2935800886bcc7c/e85cb/opengl_3_0.png 480w,
+/static/6efa61e0d136d5aef2935800886bcc7c/8c557/opengl_3_0.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* 각각의 강의에서 쓰이는 메서드의 내용은 조금씩 달라질 수 있기 때문에 마지막 전체코드를 확인하여주시기 바랍니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;1-강의-설명&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EA%B0%95%EC%9D%98-%EC%84%A4%EB%AA%85&quot; aria-label=&quot;1 강의 설명 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 강의 설명&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;/posts/opengl-2&quot;&gt;OpenGL 강좌 : 2강. 2D Programming&lt;/a&gt; 코드를 기본으로 다음 강의를 시작하겠습니다.&lt;/p&gt;
+&lt;p&gt;이번에 배울 내용은 Mouse Interaction에 대한 내용으로 &lt;code class=&quot;language-text&quot;&gt;glutMouseFunc&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;glutMotionFunc&lt;/code&gt;을 통해&lt;/p&gt;
+&lt;p&gt;마우스의 드래그 앤 드롭 (drag &amp;#x26; drop)으로 직선을 그리는 과정을 설명합니다.&lt;/p&gt;
+&lt;h4 id=&quot;2-전역-변수-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%A0%84%EC%97%AD-%EB%B3%80%EC%88%98-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;2 전역 변수 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 전역 변수 추가&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;bool&lt;/span&gt; mouseLeftDown&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt; point&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;mouseLeftDown&lt;/code&gt;은 현재 마우스의 왼쪽버튼을 누르고 있는 상태인지를 체크합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;point[2][2]&lt;/code&gt;에서 &lt;code class=&quot;language-text&quot;&gt;point[0]&lt;/code&gt;은 마우스 드래그 &lt;strong&gt;시작점&lt;/strong&gt;의 x,y 좌표를, &lt;code class=&quot;language-text&quot;&gt;point[1]&lt;/code&gt;은 마우스 드래그 &lt;strong&gt;끝점&lt;/strong&gt;의 x,y 좌표를 저장합니다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;3-새로운-메서드-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;3 새로운 메서드 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 새로운 메서드 추가&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mouseEvent&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; button&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;button &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; GLUT_LEFT_BUTTON&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; GLUT_DOWN&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;mouseLeftDown&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+			&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+				&lt;span class=&quot;token keyword&quot;&gt;double&lt;/span&gt; viewport&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+				&lt;span class=&quot;token function&quot;&gt;glGetDoublev&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GL_VIEWPORT&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; viewport&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+				point&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;viewport&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+				point&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;viewport&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;viewport&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+				point&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; point&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+				point&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; point&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+				mouseLeftDown &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+			&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; GLUT_UP&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mouseLeftDown&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+				mouseLeftDown &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;button &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; GLUT_RIGHT_BUTTON&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; GLUT_DOWN&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; GLUT_UP&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// Refresh DisplayFunc&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutPostRedisplay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt;의 &lt;code class=&quot;language-text&quot;&gt;glutMouseFunc&lt;/code&gt;의 파라미터로 호출되는 메서드입니다. ex) glutMouseFunc(mouseEvent); &lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;glutPostRedisplay&lt;/code&gt; : 화면갱신이 필요할 때 이 메서드를 호출하면 &lt;code class=&quot;language-text&quot;&gt;glutDisplayFunc&lt;/code&gt; 강제로 한 번 더 실행합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mouseMotion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mouseLeftDown&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;double&lt;/span&gt; viewport&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;token function&quot;&gt;glGetDoublev&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GL_VIEWPORT&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; viewport&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+		point&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;viewport&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+		point&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;viewport&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;viewport&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;glutPostRedisplay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt;의 &lt;code class=&quot;language-text&quot;&gt;glutMouseMotion&lt;/code&gt;의 파라미터로 호출되는 메서드입니다. ex) glutMouseMotion(mouseMotion);&lt;/li&gt;
+&lt;li&gt;마우스 왼쪽버튼을 누르고 있는동안 point[1]에 해당하는 위치를 바꿔줍니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;glutPostRedisplay&lt;/code&gt; : 화면갱신이 필요할 때 이 메서드를 호출하면 &lt;code class=&quot;language-text&quot;&gt;glutDisplayFunc&lt;/code&gt; 강제로 한 번 더 실행합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;4-main-메서드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-main-%EB%A9%94%EC%84%9C%EB%93%9C&quot; aria-label=&quot;4 main 메서드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. main 메서드&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Main program entry point&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; argc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; argv&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutInit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;argc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; argv&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Initialize GLUT Library&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutInitDisplayMode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GLUT_SINGLE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; GLUT_RGB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Set Display Mode &lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutInitWindowSize&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// width 600, height 600&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutCreateWindow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;GL2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Create new Window App &quot;GL2&quot;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutDisplayFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;RenderScene&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutReshapeFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ChangeSize&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;glutMouseFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mouseEvent&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutMotionFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mouseMotion&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;Init&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;glutMainLoop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// GLUT, GL Routine&lt;/span&gt;
+
+	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;5-결과물&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EA%B2%B0%EA%B3%BC%EB%AC%BC&quot; aria-label=&quot;5 결과물 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 결과물&lt;/h4&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 580px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/509ed305cefbae6d2af3833e3f644443/b6272/opengl_3_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 104.82758620689654%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAr0lEQVQ4y+3Tbw+CIBAGcL7/Z+x9a6tGG/JP4cnTzAQ0jpcttmdzB/7ucFOczndcbhKdD6zoMcoOU65S4dE5SGUgtB8ABLStmEVQt2krxoYgSwZSl2Vzrq/P77lehVKTDbgA64tbuGYlE87Fvge834eP8CIYxpJzgNZ8+PDKBFsLGFMPFydMD9XCxQk/N0swoRT6zun5XZADV03IgUNoAL/B1VfmwE0Tsv+UP/ij4BMWuoSrZpAanAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/509ed305cefbae6d2af3833e3f644443/b6272/opengl_3_1.png&quot;
+        srcset=&quot;/static/509ed305cefbae6d2af3833e3f644443/8ff5a/opengl_3_1.png 240w,
+/static/509ed305cefbae6d2af3833e3f644443/e85cb/opengl_3_1.png 480w,
+/static/509ed305cefbae6d2af3833e3f644443/b6272/opengl_3_1.png 580w&quot;
+        sizes=&quot;(max-width: 580px) 100vw, 580px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;마우스 왼쪽 버튼 누른 상태로 드래그를 했을 때, 점선모양으로 나옵니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 580px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/201e6e736a9ade0ecd8f3ca471808cfb/b6272/opengl_3_2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 104.82758620689654%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAs0lEQVQ4y+2S0Q6DIAxF/f9v3PuyZFM0gEyRO5At0VIn8Lo1uS9tOb1taC7XFreHgJqWImkvaeyqu5Do1RNCjmj0ZAEsqAuXqAnT1pJzFUKiBBimbBtijfh6J7ghOyB9TKEUzAVxGJNaA0rVgVng4lPDALQtMI5l4K8rW/8B+r4MzDqkTQGc45h1uC1y4I9jY5D0HwJzwV0X733qMBc8zxFeDDwDZ698BOXAVQ5z4g/8BeALuf+D1QoHLYQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/201e6e736a9ade0ecd8f3ca471808cfb/b6272/opengl_3_2.png&quot;
+        srcset=&quot;/static/201e6e736a9ade0ecd8f3ca471808cfb/8ff5a/opengl_3_2.png 240w,
+/static/201e6e736a9ade0ecd8f3ca471808cfb/e85cb/opengl_3_2.png 480w,
+/static/201e6e736a9ade0ecd8f3ca471808cfb/b6272/opengl_3_2.png 580w&quot;
+        sizes=&quot;(max-width: 580px) 100vw, 580px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;마지막으로 해당 위치에서 마우스 왼쪽 버튼에서 손을 떼게되면 직선모양으로 바뀌어 나옵니다.&lt;/p&gt;
+&lt;h4 id=&quot;6-전체코드-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#6-%EC%A0%84%EC%B2%B4%EC%BD%94%EB%93%9C-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;6 전체코드 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6. 전체코드 확인&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/paroblow/434b8162826a7b79561058514d2f36c7.js&quot;&gt;&lt;/script&gt;</content:encoded></item><item><title><![CDATA[Light 1부 _ Ambient, Directional, Hemisphere]]></title><link>https://devlue.github.io/posts/3d-concept-light-1</link><guid isPermaLink="false">https://devlue.github.io/posts/3d-concept-light-1</guid><pubDate>Wed, 19 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2538c9d7c569e76f65e2de57d727324c/29d31/3d-concept_light-1_0.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQBAv/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAHiSqeY0Uf/xAAYEAADAQEAAAAAAAAAAAAAAAAAAQIhEf/aAAgBAQABBQLRaSPonSmVn//EABYRAAMAAAAAAAAAAAAAAAAAABAhQf/aAAgBAwEBPwFwf//EABURAQEAAAAAAAAAAAAAAAAAAAIQ/9oACAECAQE/ARP/xAAYEAADAQEAAAAAAAAAAAAAAAAAEBEBMf/aAAgBAQAGPwI6tJF//8QAFxABAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAQABPyF6e2tKgLWPd7HEZCMdX//aAAwDAQACAAMAAAAQOA//xAAXEQADAQAAAAAAAAAAAAAAAAABEDFB/9oACAEDAQE/EIOl/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEQ/9oACAECAQE/EKKjn//EABoQAQADAQEBAAAAAAAAAAAAAAEAESExQVH/2gAIAQEAAT8QqQwb2e8QXtR0nClzPDVL2AE2y7OMTArfs//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/2538c9d7c569e76f65e2de57d727324c/29d31/3d-concept_light-1_0.jpg&quot;
+        srcset=&quot;/static/2538c9d7c569e76f65e2de57d727324c/09b79/3d-concept_light-1_0.jpg 240w,
+/static/2538c9d7c569e76f65e2de57d727324c/7cc5e/3d-concept_light-1_0.jpg 480w,
+/static/2538c9d7c569e76f65e2de57d727324c/29d31/3d-concept_light-1_0.jpg 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;3D 그래픽스에서 Light의 종류는 Ambient Light, Hemisphere Light, Directional Light와 Point Light, Spot Light 가 있습니다.&lt;/p&gt;
+&lt;p&gt;굳이 나누는 기준은 &lt;strong&gt;자연광&lt;/strong&gt;와 &lt;strong&gt;인조광&lt;/strong&gt;으로 나누었습니다.&lt;/p&gt;
+&lt;h4 id=&quot;-3d-그래픽스에서-빛이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-3d-%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B9%9B%EC%9D%B4%EB%9E%80&quot; aria-label=&quot; 3d 그래픽스에서 빛이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* 3D 그래픽스에서 빛이란?&lt;/h4&gt;
+&lt;p&gt;우리가 눈으로 보는 사물의 색깔은 사물이 빛을 흡수하지 못한 빛을 반사하기 때문에 색이 나타나는 것입니다.
+자연에서 태양에 의해 생성된 빛은 수백, 수만번의 반사를 거쳐 우리에게 전달되는데, 컴퓨터 상에서의의 수백, 수만번의 반사를 수백초분의 1의 시간동안 계산해야 합니다.이것은 실현이 거의 불가능하기 때문에 우리가 볼 수 있는 빛을 조금 더 세분화해서 Preset(프리셋)을 만들어놓고 계산을 실행합니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1435e28a708325986950721c0e9d8764/29d31/3d-concept_light-1_1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.14285714285715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAME/9oADAMBAAIQAxAAAAGMLOvCpg//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIDITH/2gAIAQEAAQUCwuhvpZjK8FZb3//EABgRAAIDAAAAAAAAAAAAAAAAAAABAhEh/9oACAEDAQE/AZaij//EABcRAQADAAAAAAAAAAAAAAAAAAECEBH/2gAIAQIBAT8BiY1//8QAGRABAAIDAAAAAAAAAAAAAAAAARAxABEh/9oACAEBAAY/AkLzTUcn/8QAGhABAQACAwAAAAAAAAAAAAAAAQAhMRFBYf/aAAgBAQABPyH21FvzjbSehKMsQxv/2gAMAwEAAgADAAAAEAgv/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAEDAQE/ECUsv//EABYRAQEBAAAAAAAAAAAAAAAAAAABIf/aAAgBAgEBPxDQSv/EAB0QAQEAAgEFAAAAAAAAAAAAAAERACExQVGBocH/2gAIAQEAAT8Q2AwFLZz6wUIpaht8fcVeEhbG51xgIj3xQCGf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/1435e28a708325986950721c0e9d8764/29d31/3d-concept_light-1_1.jpg&quot;
+        srcset=&quot;/static/1435e28a708325986950721c0e9d8764/09b79/3d-concept_light-1_1.jpg 240w,
+/static/1435e28a708325986950721c0e9d8764/7cc5e/3d-concept_light-1_1.jpg 480w,
+/static/1435e28a708325986950721c0e9d8764/29d31/3d-concept_light-1_1.jpg 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;1-환경요소로서의-light--자연광&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%99%98%EA%B2%BD%EC%9A%94%EC%86%8C%EB%A1%9C%EC%84%9C%EC%9D%98-light--%EC%9E%90%EC%97%B0%EA%B4%91&quot; aria-label=&quot;1 환경요소로서의 light  자연광 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 환경요소로서의 Light : 자연광&lt;/h4&gt;
+&lt;h5 id=&quot;a-ambient-light&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#a-ambient-light&quot; aria-label=&quot;a ambient light permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;a. Ambient Light&lt;/h5&gt;
+&lt;p&gt;Ambient Light(앰비언트 라이트)는 환경광 또는 주변광이라고 하며, 다른 물체에 반사되어 보이는 조명이라는 뜻으로 각종 사전에 적혀있습니다. 하지만 이를 표현하기 위해 가장 비유하기 좋은 상황은, 아주 깜깜한 밤중에 눈을 뜨고 일어나면 아무것도 보이는게 없어야하는데 무엇인가 보인다! 라고 하면 그것이 바로 Ambient Light 입니다. 사실은 그마저도 달에 반사된 햇빛이 비추기 때문에 은은한 빛이 도는 것이지만, 그 마저도 반사를 거친 빛이라면 그냥 Ambient Light의 존재의 필요성을 느끼게 됩니다. 일반적으로 Ambient Light 는 RGB와 Intensity 속성을 가지고 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/518ff365034bfc3fb3c46c7f140b189b/29d31/3d-concept_light-1_2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.42857142857143%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHCauQFD//EABcQAAMBAAAAAAAAAAAAAAAAAAEQESD/2gAIAQEAAQUCGKv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAXEAEBAQEAAAAAAAAAAAAAAAABABEQ/9oACAEBAAE/Ibkw5K5//9oADAMBAAIAAwAAABBrz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQACAwEAAAAAAAAAAAAAAAEAERAhMUH/2gAIAQEAAT8QFxNSg9jLUR7j/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/518ff365034bfc3fb3c46c7f140b189b/29d31/3d-concept_light-1_2.jpg&quot;
+        srcset=&quot;/static/518ff365034bfc3fb3c46c7f140b189b/09b79/3d-concept_light-1_2.jpg 240w,
+/static/518ff365034bfc3fb3c46c7f140b189b/7cc5e/3d-concept_light-1_2.jpg 480w,
+/static/518ff365034bfc3fb3c46c7f140b189b/29d31/3d-concept_light-1_2.jpg 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+분명히 무언가 보이는 사진입니다.&lt;/p&gt;
+&lt;h5 id=&quot;b-directional-light&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#b-directional-light&quot; aria-label=&quot;b directional light permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;b. Directional Light&lt;/h5&gt;
+&lt;p&gt;Directional Light(디렉셔널 라이트)는 직접광 또는 직사광이라고 하며, 태양광처럼 크고 먼 광원에서 나오는 빛을 의미 합니다. 들어오는 빛의 각도가 모두 평행한 빛이라고 하죠. Directional Light와 빛을 받는 평면이 서로 수직이라면, 그 사이에 존재하는 물체의 그림자의 크기는 물체의 크기과 같다고 할 수 있습니다. 일반적으로 Directional Light는 RGB와 Intensity 속성을 가지고 있으고, Shadow와 관련이 있습니다. 속성값으로 그림자를 소프트하게(번짐효과) 처리할 것인지, 하드하게(경계가 명확) 처리할 것인지 선택을 하기도 하며, Cascade를 적용해 거리에 따라 그림자의 해상도도 설정하게 됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 250px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0e55734adbf4ee889c8b97d73b656925/63868/3d-concept_light-1_3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACQ0lEQVQ4y42TS47TQBCGfQZOwS0QB0CsYAMbtkiIC7BnwYIdd+ACLBECRpNkEuKMlXjipN22245jZx4aMn7FL/5222NHk0i04shu91d/1V9lqSyLEld6nd3280At8rjkqyibFSeJ6234VtFuiiXhyiMaam/DizfB7FXMPiOSOIqzu13KVus5MezV+iHP4dj6GExf/h083spPg+mL9OaHEIemabvEsKhpL3TzIS/hKaYfAuXZzXfp9uRRqL5O/K9VttHK2+gGA1X9HI2A97o8V06cLxC8k58EynOkkG/lJC0t21lQfppatgiBJw0x3JbncJHdxexTuHwfLt6l19+SrAS0pBaAJWV7vOVouuG4vuAlbmyRw7U8cct8G8XJau0Rk+GcSBhRwFf3DU8Mz7+slXmQHDy83ZnMgUPO2idttXs8f+t6J4MxqpDuCwjDsCIrxrCRW5cnFY8dBB6MlbGiZlkmCd+iOEYnlgavU7cEwKDQ8Ezoe/5Vf3R+NlbEGElihlAJ0rB4V+/VGGl53NtId/BHmWkEmrVhYRTD28YMG/fEbLOFycgWmghzeiZPpvOiKNo+oza4V3trMOibbLWnbzB/c9UbTs5n8wOzzZw1/KBWLaULfaOuk2sOZVXT86oje7DIAfXgHBXGVpjg8d8bTRR10c12T1ns4htYdvVNG93+3ecWHfwemyGpB6WaSpRt2fAMQ4x+zuakPL6k7gMCcLcon6Gfp8PpxeKg4FFY8L96ozmh2BEt/S9YrCTZoXnH6uyuf0aBUMkgRw1gAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/0e55734adbf4ee889c8b97d73b656925/63868/3d-concept_light-1_3.png&quot;
+        srcset=&quot;/static/0e55734adbf4ee889c8b97d73b656925/8ff5a/3d-concept_light-1_3.png 240w,
+/static/0e55734adbf4ee889c8b97d73b656925/63868/3d-concept_light-1_3.png 250w&quot;
+        sizes=&quot;(max-width: 250px) 100vw, 250px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h5 id=&quot;-hemisphere-light&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-hemisphere-light&quot; aria-label=&quot; hemisphere light permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;+ Hemisphere Light&lt;/h5&gt;
+&lt;p&gt;Hemisphere Light(헤미스피어 라이트)는 반구광?? 이라고 하는데, 이는 기본 빛의 요소는 아니지만, 하늘의 색깔과 땅의 색깔을 주변광처럼 적용시키는 역할을 합니다.&lt;/p&gt;
+&lt;p&gt;Ambient Light와 Directional Light로도 환경요소로서 빛을 충분히 표현할 수 있지만, Javascript WebGL 오픈소스 라이브러리인 threejs에 들어가있는 Light의 한 종류이기도 합니다. Unity로 비교하자면 Environment Reflection 정도로 해석할 수 있겠네요.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 224px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/33746a9d9ddcc67c285de711e269e27e/80b2d/3d-concept_light-1_4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAACyklEQVQ4y21US2/TQBDev4fECfUnINET6gmucACpl8KpEo9SIZCQkFrEoVCVioZDoXnZDm4cx25Sx21iO/H7sV47LybedptK7MGe9c433+w3M0bz6zWbzeAZhqGqKnz1SBCERmPx4LkqVz5Q1Y7nedSNesJCDDaZjFVFkSTJ9wMStOdTchV0SrKgFUVYlmU4zfOc8SH6ykgKJJY1AmfYJnY1tmv0KLj8nvoSjeN6Qb1+EscBpUQF51Tga5Z+PJ9PYcEXEiqRcUDB4eBbji/AmC7CYtcoCzxHCLliVhTFMC2AeL3dHPcpCU2BigGpwzv1/jrdD2A4jiOK4gIcRdHpqUjdUpdL7EoBmCzAVBgG9k/HuE9DttvKcDhEsqw4jsdkm18ryUqwLC9zi6IQKBFXLeVRh4RnYzxYBmcZ4apHy9pSfhLI8fA4jxSRL6F6rQqShWbJ1z8vx8Y42Xpx5/evj6OhJTXr+XhMT5PRn6QohK7rCCo0L1RmBGDbzvDn4acPr1fev1rZ3Lj7dWdjOSnqDGUHsMD2lJOQfHt7fX393pu3q1vvHmxurlqWeSMKZF84t1otxHEcWJbtyuc9Jgy89/Z3nm08fP5y7fHT+w2RZwRtTedb7elspmkaOqlULMc90y+1vkHDUyeuIaw9eXRYOvyyt7v/Y5+BMSEjz3eDsFytoaYksY5fFkzraULRCTTc7HYJU4ybzSbyfR/anX6KMdYXrXYTgiKnhW3aTufikp6qqmqaJqJXt20bDFHpKD39v71BE65LcpKm0JSNRuOqt7MsA83Pehc4u2oJkmWi2qH2+cDQBkYxP5NFeQ3zpFzGSXIzknEclyuVMAjo1o9iQVapPXRcqaMxN57n3WuNEMsqy/JmU4LL5Flm+0GcpqwljJGdpmm324VhSgpOeiO0PAB03ECCcq3W6Z4rShvsfr9f43n4J8EYzW+vf2RFWNoh2OTUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/33746a9d9ddcc67c285de711e269e27e/80b2d/3d-concept_light-1_4.png&quot;
+        srcset=&quot;/static/33746a9d9ddcc67c285de711e269e27e/80b2d/3d-concept_light-1_4.png 224w&quot;
+        sizes=&quot;(max-width: 224px) 100vw, 224px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[OpenGL 강좌 _ 2강. 2D Programming]]></title><link>https://devlue.github.io/posts/opengl-2</link><guid isPermaLink="false">https://devlue.github.io/posts/opengl-2</guid><pubDate>Tue, 18 Dec 2018 02:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 810px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9ff6a63f695e0beb1341df98377b1fb0/d7542/opengl_2_0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.93827160493827%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACj0lEQVQoz22T3U/aYBSH+X8WB5aWfhesRYEZksWxDxGESTsVBKdgnIEsfoCCdFnwQjfI2MxmdBe7EKrVKKbomB9xXvgP7VSIRl3yXLRv+rznvO/v1DBY1EbKx6GiJpbqLeC53BjMb/r7Xvm93v8S8Pn8/f2G4S9Hbnmva3Hbkd1psag45Jp9dMlGkTaOs7HsQ6wMI4VCBrFYB8E2X+XTSov5Cp874ILTJGLEMQtNEKTFQmAYheM3wEpwYMAAfTpzOx3pamdGaZGuCPlD9mWYs5jtgh1HUfiapWnY5QZYeR0I3Mr2hW1hQa/cCRtl97inAdzUJoqSy+Hw9PYOSRJiNILGkOR9mU9Xmdktbq4iZBRer19lXR4CMdk4ayIel+V8j9PJ0TQ4FrMZ/DuyWDqaXD+NrTXG1hpdWZWf+cXwDo4kjG1tiUTi4uLv6srK5eXltqK4e3oIFIXiLfnJkuqWd18sH7g/7Lrzald2ryO1QdMMQxA4hnk8z2qHtbPz86urK03T5HzebDJBcV2WSvVQse5fOQx+1qTSkVjShr6duN+vEZiFpUgUQfq83tVPq/v7+6qqlsvl5UKBpajbtl05lc9UnTkV+u9eVJxyTRj7SGEoA0dDUUHoTGcyhUJhfGJ8Y3MzEg6TOE7fu23w4dqaIVvFGRpFGEqXg8GgKIrJVHLq3ZTP54PxgJBvz3wnZz3kmrV/gjIbmev2uu32sVgslUxKIREGDlbuROVa2oGyELJOBuQD6/M3NGpiKBouBmYL6kNCGII0c25GrcvwS0BBemaLna20mFNwhwd7/Ai7FkC7AV6boO3t+niGv/6e/nk2/uNPfP3kmtP490ZsMhUdGY5GRqORyENGw+G3sRjM3D8G22u1CR4kqAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/9ff6a63f695e0beb1341df98377b1fb0/d7542/opengl_2_0.png&quot;
+        srcset=&quot;/static/9ff6a63f695e0beb1341df98377b1fb0/8ff5a/opengl_2_0.png 240w,
+/static/9ff6a63f695e0beb1341df98377b1fb0/e85cb/opengl_2_0.png 480w,
+/static/9ff6a63f695e0beb1341df98377b1fb0/d7542/opengl_2_0.png 810w&quot;
+        sizes=&quot;(max-width: 810px) 100vw, 810px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-opengl-c-프로젝트의-기본-코드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-opengl-c-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%BD%94%EB%93%9C&quot; aria-label=&quot; opengl c 프로젝트의 기본 코드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* OpenGL C++ 프로젝트의 기본 코드&lt;/h4&gt;
+&lt;p&gt;OpenGL 초기 버전의 기본코드이며, main 내에서 RenderScene, Init, ChangeSize를 각각의 맞는 함수에서 불러옵니다.&lt;/p&gt;
+&lt;p&gt;다음 코드박스에 해당 하는 부분을 순서대로 입력하시면 됩니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;#&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;Windows.h&gt;&lt;/span&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Master include file for Windows Application&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;#&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;gl/GL.h&gt;&lt;/span&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// OpenGL Core Library&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;#&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;gl/GLU.h&gt;&lt;/span&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// OpenGL Utility Library&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;#&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;gl/glut.h&gt;&lt;/span&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// OpenGL Utility Toolkit&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;1-init-네이밍-수정-가능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-init-%EB%84%A4%EC%9D%B4%EB%B0%8D-%EC%88%98%EC%A0%95-%EA%B0%80%EB%8A%A5&quot; aria-label=&quot;1 init 네이밍 수정 가능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Init (네이밍 수정 가능)&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Setup the rendering state&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Init&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glClearColor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.0f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Set RGBA to 1, 1, 1, 1&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Init&lt;/code&gt;이란 메서드명은 사용자가 &lt;code class=&quot;language-text&quot;&gt;임의로 수정이 가능&lt;/code&gt;하며, 관습적으로 Initiating 을 목적으로 만든 메서드입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;2-changesize-네이밍-수정-가능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-changesize-%EB%84%A4%EC%9D%B4%EB%B0%8D-%EC%88%98%EC%A0%95-%EA%B0%80%EB%8A%A5&quot; aria-label=&quot;2 changesize 네이밍 수정 가능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. ChangeSize (네이밍 수정 가능)&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Called by GLUT library when the window has changed size&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ChangeSize&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; width&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; height&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	GLfloat aspectRatio&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;// Prevent a divide by zero&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;height &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token function&quot;&gt;glViewport&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; width&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; height&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// Set Viewport to window dimensions&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;glMatrixMode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GL_PROJECTION&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;glLoadIdentity&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    aspectRatio &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GLfloat&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;width &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GLfloat&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;height&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Screen width/height &lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;width &lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt; height&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;gluOrtho2D&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;width&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;width&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;gluOrtho2D&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;width &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;height&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;width &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;height&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token function&quot;&gt;glMatrixMode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GL_MODELVIEW&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;glLoadIdentity&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt; 메서드에서 &lt;code class=&quot;language-text&quot;&gt;glutReshapeFunc&lt;/code&gt; 의 파라미터로 호출되는 메서드입니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;윈도우의 크기가 변할 때 &lt;code class=&quot;language-text&quot;&gt;glutReshpeFunc&lt;/code&gt; 메서드가 호출됩니다.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;해당 메서드에서 width, height, aspectRatio(화면 가로비율/세로비율)을 받고 이를 통해 카메라의 위치를 조정합니다.&lt;/li&gt;
+&lt;li&gt;glOrtho 부분이 카메라의 위치를 조정하는 부분인데 다른 포스팅에서 추가로 설명하겠습니다. ( 카메라 모드 설명 )&lt;/li&gt;
+&lt;li&gt;glMatrixMode 와 glLoadIdentity 는 Matrix 곱을 하는 부분인데, 이 부분도 다른 포스팅에서 추가로 설명하겠습니다. ( Multiplex matrix )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;3-renderscene&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-renderscene&quot; aria-label=&quot;3 renderscene permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. RenderScene&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;RenderScene&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token comment&quot;&gt;// Clear the window with current clearing color&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glClear&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GL_COLOR_BUFFER_BIT&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;glColor3f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glBegin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GL_POLYGON&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glVertex2f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glVertex2f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glVertex2f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glVertex2f&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glEnd&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token comment&quot;&gt;// Flush drawing commands&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glFlush&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt; 메서드에서 &lt;code class=&quot;language-text&quot;&gt;glutDisplayFunc&lt;/code&gt; 의 파라미터로 호출되는 메서드입니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;glutMainLoop&lt;/code&gt; 로 인해 매 프레임마다 호출됩니다.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;glClear 2. Init 메서드에서 &lt;code class=&quot;language-text&quot;&gt;glClearColor&lt;/code&gt;에 입력한 생상으로 창의 색을 흰색으로 갱신합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;glColor3f&lt;/code&gt;는 RGB 값을 1, 0, 0 으로 설정한 뒤 Color Buffer에 보관합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;glBegin&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;glEnd&lt;/code&gt; 사이에서 Vertex의 위치가 (-50, -50), (0, -50), (0, 0), (-50, 0)인 GL_POLYGON 형태로 그립니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;4-main-메서드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-main-%EB%A9%94%EC%84%9C%EB%93%9C&quot; aria-label=&quot;4 main 메서드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. main 메서드&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Main program entry point&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; argc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; argv&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutInit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;argc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; argv&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Initialize GLUT Library&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutInitDisplayMode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GLUT_SINGLE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; GLUT_RGB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Set Display Mode &lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutInitWindowSize&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// width 600, height 600&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutCreateWindow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;GL1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Create new Window App &quot;GL1&quot;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;glutReshapeFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ChangeSize&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;Init&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;token function&quot;&gt;glutMainLoop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// GLUT, GL Routine&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그램 동작시 main으로 동작하는 부분이며, glutMainLoop 로 화면을 그리기전에 glut 와 관련된 메서드로 library 를 초기화합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;5-결과물-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EA%B2%B0%EA%B3%BC%EB%AC%BC-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;5 결과물 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 결과물 확인&lt;/h4&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 602px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4c074fbc2f4674d5bcc291208f83c264/32056/opengl_2_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 104.98338870431894%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAr0lEQVQ4y+1UWw6EIBDjOJ5QL6GX8jabaPyD8JDKwJLwQVYE/tYmDQRmmg4wsM+2gXMOrTWUUn4sJcUThRCQUnoybTR6ghlj/MRa24VZwTvEmFvB7iX/s2Cc03iegelalcNcYkEVvx26DsK+A8cRXFY7dO3kMc8uggHDEESrBV1PeoxjECSSU0J0+kjwu4Z1BaYJWJZQftOl5Jw0Xwrt0Xm6r6rt2aTJKZtKfj+HUlwXZXoX3Qnx2gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/4c074fbc2f4674d5bcc291208f83c264/32056/opengl_2_1.png&quot;
+        srcset=&quot;/static/4c074fbc2f4674d5bcc291208f83c264/8ff5a/opengl_2_1.png 240w,
+/static/4c074fbc2f4674d5bcc291208f83c264/e85cb/opengl_2_1.png 480w,
+/static/4c074fbc2f4674d5bcc291208f83c264/32056/opengl_2_1.png 602w&quot;
+        sizes=&quot;(max-width: 602px) 100vw, 602px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-전체코드-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%A0%84%EC%B2%B4%EC%BD%94%EB%93%9C-%ED%99%95%EC%9D%B8&quot; aria-label=&quot; 전체코드 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* 전체코드 확인&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/paroblow/1e481e8a26fc0dbc66525ba6165b6fc7.js&quot;&gt;&lt;/script&gt;</content:encoded></item><item><title><![CDATA[Camera(카메라) _ Perspective & Orthogonal]]></title><link>https://devlue.github.io/posts/3d-concept-camera-1</link><guid isPermaLink="false">https://devlue.github.io/posts/3d-concept-camera-1</guid><pubDate>Tue, 18 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3e6b474ae2afa0a681ce5cecf4111ea5/8c557/3d-concept_camera_0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAClUlEQVQoz11TS08TURjtxhjdaWLUjWJiUF7STu+d+5iZvijUBSlpS6e08yoChvAQCwUEU0JLbQETY1hIayFBEzYaWUpijL/AGE38Bf4Sv2lHeSRncedmzpzzne+MK7erLu9Z87X0Qj3joJbJ72cml3QzY1imYRnnYer6qGXBwbXUMMztoFqmIy+4gzJPb/FIQvYzJeBTAooDv+L7fwZMjI+75msjQIivC4kiOkEJ+SMi8xJOCSeEESqJSBZ6OBY4pXADyJqma6GWzlRkIAyXsIMNnFjDvj7CRSpRGz4sIP9AR+o574vJyC1RBpfg3LVQT6crkq1sM0VAsoxjq1hRqASCjMpEbE/NXsx/uFr40bv2E0enwQXwbTJEpVV9Lc3YumdozR0ruYcWcUtTokSSpZtPP15Y/nI999ld/eOZ+SiJ2FGee5OEhCHw3G7qWcNc3R8rvB9T837qFWXGJEIkFGybrXfOH93iO23Dn9wThxIRHTIEln0Z1qqKvukztwLZ7fD464HBScaQ7RmUkdXVcdjV/3W6M128cW/FLWsyIzBRa+aMWibGpm/xrQ6Y2hmKlz0RQ+SYyl4uTHW2H1/uOLoU/h3j3yfxYEQWPM2PtsjNtNUNArIwvFZR1CruT4oMU0Xg3cv3246v9Rzc7T4aefDrCVNDskDPk+Pr3njRCwuLF1GygkNRwmxlhmZ6Q9/c7CB0ZSN6512KRQMSIufJiaK3uSdn1cGHBGzDG5BZZI6RRuD2bASFuZ0fc5bvBHamYSUUKyAlCLab9RIJ84g0aLdKRmKrWycNO9NtaHWVJws8GFQC8r8a+5UAb3b7VM8Bj5vdTq/sjdp/Ul3L17TFhpZ7pWV1I2ucgmVkzZNHS9cfWRbY/gvvFyVtw4VlyQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/3e6b474ae2afa0a681ce5cecf4111ea5/8c557/3d-concept_camera_0.png&quot;
+        srcset=&quot;/static/3e6b474ae2afa0a681ce5cecf4111ea5/8ff5a/3d-concept_camera_0.png 240w,
+/static/3e6b474ae2afa0a681ce5cecf4111ea5/e85cb/3d-concept_camera_0.png 480w,
+/static/3e6b474ae2afa0a681ce5cecf4111ea5/8c557/3d-concept_camera_0.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;1-카메라camera란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%B9%B4%EB%A9%94%EB%9D%BCcamera%EB%9E%80&quot; aria-label=&quot;1 카메라camera란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 카메라(Camera)란?&lt;/h4&gt;
+&lt;p&gt;  카메라는 일반적으로 우리가 사진촬영을 위한 광학 기기로 알고 있습니다.&lt;br /&gt;
+하지만 3D 그래픽스에서 설명하는 카메라는 가상의 3D 공간에서 어떤 지점을 바라보는 눈입니다.&lt;br /&gt;
+즉, 가상공간에 존재하는 가상의 눈을 의미합니다.&lt;/p&gt;
+&lt;h4 id=&quot;2-카메라의-종류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%B9%B4%EB%A9%94%EB%9D%BC%EC%9D%98-%EC%A2%85%EB%A5%98&quot; aria-label=&quot;2 카메라의 종류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 카메라의 종류&lt;/h4&gt;
+&lt;p&gt;  3D 공간에서 카메라의 종류는 &lt;code class=&quot;language-text&quot;&gt;Perspective Camera&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;Orthogonal Camera&lt;/code&gt;가 있습니다.&lt;/p&gt;
+&lt;p&gt;  &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/25f5cd3fd65f9435b7cb2df3affdd580/8c557/3d-concept_camera_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.714285714285715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAACM0lEQVQoz5VSX0xSYRS/bFEPreW0LHvqwZ56663VY08uZ7O1tZYwWThYzBFbf1xZT7ock5abRqICl38X5N4PEA1UCDUQIVBgkGwaJQ4YhS7qIRE63UvGeu1sZ+d3zu/3/fadfR+GHcTH7VxTLLHO93m9J/7OHgn5rBq/lanhTL5wYSOVdgeCoQ2Hc3ZQpzO0jo6r/5wDgCPfit/F27mv2c/bWXC53qYNhOkuPT/E8CJeJ4vGVW10ffNMLl8Yyxd2IftlF96HwuD1LcP0jAN0Wv3OQ7HYgS0GItH8ThHSuQKsRuOlcHgVItEYvByUxbgtV5oZI7lCxWYqYXf3pDIF2Py0VV5ZS5Tn5t2VeOJDyeFwVtqutsHli5cAI51LEE0k9954/CWCspeXA6ESZbH/GOjrg6f3RDcYowHpi8NMVVPO+wvBGCz6Qz8nDKii0k3+UqgJ6OAJKy2t7fsdt7mAWeZ9sBSIAIFmQEUgUOrMwBVIQNQtSQ0/kZxjjIZGFAc3dD1zvAvTOguMaUyAE2j/cf9QqbtXCrwHz+H6ra45TENOe16rCL8CNwaVejIsn9AmOZw7o8cxrI4x6RKIWPjkVPVBNGb7+XGtaZg2W6Nzz2xzgnQEh2v8niJH1CvA/idwk5X1b/9KaWhWE6izXyaXtd8Unq0RyGI9RSFLA0Whk3TWUwjV41p9o9FobJyy2aqrkhSqas3IyqZxE0KowTNrPxpZsLLpH8BKxkPHcJ3hNElSdb8BiwJANbsqe0MAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/25f5cd3fd65f9435b7cb2df3affdd580/8c557/3d-concept_camera_1.png&quot;
+        srcset=&quot;/static/25f5cd3fd65f9435b7cb2df3affdd580/8ff5a/3d-concept_camera_1.png 240w,
+/static/25f5cd3fd65f9435b7cb2df3affdd580/e85cb/3d-concept_camera_1.png 480w,
+/static/25f5cd3fd65f9435b7cb2df3affdd580/8c557/3d-concept_camera_1.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h5 id=&quot;1-perspective-camera--원근감-있는-카메라br-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-perspective-camera--%EC%9B%90%EA%B7%BC%EA%B0%90-%EC%9E%88%EB%8A%94-%EC%B9%B4%EB%A9%94%EB%9D%BCbr-&quot; aria-label=&quot;1 perspective camera  원근감 있는 카메라br  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;(1) Perspective Camera : 원근감 있는 카메라&lt;br /&gt;&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Perspective Camera는 가까이 있는 물체는 크게, 멀리 있는 물체는 작게 보이는 원근감이 느껴지는 카메라입니다.&lt;/li&gt;
+&lt;li&gt;같은 말로 Perspective projection 가 있습니다.&lt;/li&gt;
+&lt;li&gt;Field of View (FOV) : &lt;a href=&quot;#&quot;&gt;4. Field of View&lt;/a&gt;에서 설명&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;2-orthogonal-camera--정사영직각의-카메라&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-orthogonal-camera--%EC%A0%95%EC%82%AC%EC%98%81%EC%A7%81%EA%B0%81%EC%9D%98-%EC%B9%B4%EB%A9%94%EB%9D%BC&quot; aria-label=&quot;2 orthogonal camera  정사영직각의 카메라 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;(2) Orthogonal Camera : 정사영(직각의) 카메라&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Orthogonal Camera는 가까이 있는 물체든, 멀리 있는 물체든 같은 크기로 보이는 카메라입니다.&lt;/li&gt;
+&lt;li&gt;같은 말로 Orthographic projection, Orthographic Camera, Isometric Camera 가 있습니다.&lt;/li&gt;
+&lt;li&gt;Orthographic Size : &lt;a href=&quot;#&quot;&gt;5. Orthographic Size&lt;/a&gt;에서 설명&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;*Projection(투영)이란?
+
+3D 물체를 2D 평면위에 투과/투영시키는 것입니다.
+우리 눈은 어떤 물체가 망막에 2D 이미지로 맺혀야 보입니다.
+카메라도 마찬가지로 센서에 2D 이미지로 맺혀야 보입니다.
+즉, 우리는 3D 공간에서 2D 상에 맺힌 이미지를 보고 있는 것입니다.
+따라서 3D 가상 공간은 카메라에게서 가까운 2D 평면에 이미지로 투영되어 화면에 보여집니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;3-view-frustum--near-plane-far-plane-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-view-frustum--near-plane-far-plane-&quot; aria-label=&quot;3 view frustum  near plane far plane  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. View Frustum (+ Near plane, Far plane )&lt;/h4&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 400px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5d7f4c4f9e9a36fb87ad8628a9cf4e3f/e17e5/3d-concept_camera_2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 85%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAADEElEQVQ4y42U70tTURjH7+ZPrEzZ1JzaQDOpjMgQyUBQfNML602gEyyjMCrpTSESBBqW4I8QfWHbvXd3a5t2p5uJON0v5n65+WtuzUkKCb2o/6AUnJ6ee3Nzm6564PCcw7nnc77Pc74bhsUJHMcPsoTNSuUoFxIn9juEEKZWqxMtFstRSMpZUTinwuAK6rGuHjEDwlQqVaXNZnM4nc5+sVj8rKWlpYrP55+DLW7ovFKpjA+NDLeZSKbpjxWLi4toc3MTra6uIrfb/dNkMn2BQZrN5ia5XJ7xN4XJqUJRBpZ1J+Ny1ZPs26KXl5of99QwEIAGFxYW9paXl5HP50OBQACtrKygmZmZ6rjApPyG5NPFTelY0s30B62dpbziuzmND7trXS7XNqMSxh5A96H84Pz8/C7Mg7Ozs5XHv0ZKXWTDk79uePnMXKPRlDClMqpA6b7D4diFC3aXlpaYdXB6errsCOtqdStmnJKF1/eam8shnWLmJEEIDRYTabHO/bDb7Wh9fR35/X62XADuTE5OXoyCEQTB5pGREdYaJEnmwq2msbGxiYGBgba6W3U3RG+flrZL3lwz6PXlVqv1FaicA9gvKBlBBeePwELek8lkqYODg3nwsW9rawsxD6DX6wO90qGCEk1jUqQQAF3R6XTt4+PjvCgTh6A729usuhdt7Sl2m9Xy2edFa2t+BM3/jr7tsJ5TKBUnFApFLkVRuX19fSdDHIPBcKgurJIgMnGC5FOEOO8dQV+nP+ke2exOo81q3ZBSlOC9WJwDF57BCTyNpmn2DPSTCyoPZbPkP0oTACiU4ESxkhwWNPSbs9Lv04X1z3sL1KOqMkJK8aAV3NjehwYbXq+XYzQaEw42hQCtwHGikCIk/CFcLhj6MJGPPFRi7O88EhIFDIVUKs2HD0WwcQEyD6BpNkV3eF8/peWAQgx6xjjheAgT4Ppsj8cjBW9RHR0dmbH7ncNqjkvRhb0eVkf1Om6AMWvBFkEovYZZg/O58HrswZCNIuf/DOb/DGCnmblWq2VNXVRUxAL+GxIRvwGBJsDQbSUXOwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/5d7f4c4f9e9a36fb87ad8628a9cf4e3f/e17e5/3d-concept_camera_2.png&quot;
+        srcset=&quot;/static/5d7f4c4f9e9a36fb87ad8628a9cf4e3f/8ff5a/3d-concept_camera_2.png 240w,
+/static/5d7f4c4f9e9a36fb87ad8628a9cf4e3f/e17e5/3d-concept_camera_2.png 400w&quot;
+        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Frustum 이란 사각뿔에서 머리가 잘린 절두체를 의미합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;View Frustum&lt;/code&gt;은 Camera가 보는 시야 안쪽의 Near Plane과 Far Plane으로 잘린 공간을 말합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;View Frustum&lt;/code&gt;은 &lt;code class=&quot;language-text&quot;&gt;Frustum Culling&lt;/code&gt; 이라고도 하는데, Frustum을 통해 보여지는 공간을 잘랐다는 의미입니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;View Frustum&lt;/code&gt; 바깥의 파란 정사면체는 실제로 화면에 보이지 않을 것이고, 파란 정사면체만 화면에 보일 것입니다.&lt;/li&gt;
+&lt;li&gt;만약! 카메라에서 Near Plane보다 가까운 지점에 물체가 놓이게 된다면 잘려서 보이지 않게 됩니다. 예를 들어, 옛날 서든어택 상자 버그가 활황하던 시절에 상자를 뚫는데 갑자기 모서리부분부터 뚫린것 처럼 보인다! 그것이 Near Plane에 의해 앞부분이 잘려서 안 보이는 현상입니다. 반대로 Far Plane에 잘려서 멀리 있는것이 안 보이게 되는 현상도 존재합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;4-field-of-viewfov&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-field-of-viewfov&quot; aria-label=&quot;4 field of viewfov permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Field of View(FOV)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Perspective Camera 에서만 사용 가능&lt;/li&gt;
+&lt;li&gt;FOV는 화각을 말하는 것으로 가까이 보이는 것과 멀리 보이는 것이 아닌!!! 내 양옆으로 얼마나 많은 것을 볼 수 있는지를 의미하는 각도입니다.&lt;/li&gt;
+&lt;li&gt;숫자가 작을수록 좁은 영역을, 숫자가 클수록 넓은 영역을 볼 수 있습니다.&lt;/li&gt;
+&lt;li&gt;일반적인 사람의 FOV는 한 쪽 눈당 60도 입니다. 양쪽 눈의 FOV를 합했을 때는 114~120도 사이입니다. 겹치는 구간이 존재하기 때문이지요.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a05e85e75a2aa26c28811f2af8c80151/29d31/3d-concept_camera_3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.14285714285715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAByXTJTRIP/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAAxESITH/2gAIAQEAAQUCFjQv3dYvtpOZ/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BR//EABURAQEAAAAAAAAAAAAAAAAAAAAS/9oACAECAQE/AVP/xAAZEAACAwEAAAAAAAAAAAAAAAAAEAECIWH/2gAIAQEABj8C4tIKr//EABsQAQADAQADAAAAAAAAAAAAAAEAESExQXGB/9oACAEBAAE/IVpvXmZKKEhTpH1F8J3Ucan/2gAMAwEAAgADAAAAEMDv/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QSf/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxAW1f/EABsQAAIDAQEBAAAAAAAAAAAAAAERACExUXGB/9oACAEBAAE/EC+SBMkS44YMcA9nyMBhCCygYEQ8XS8lgKAyf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/a05e85e75a2aa26c28811f2af8c80151/29d31/3d-concept_camera_3.jpg&quot;
+        srcset=&quot;/static/a05e85e75a2aa26c28811f2af8c80151/09b79/3d-concept_camera_3.jpg 240w,
+/static/a05e85e75a2aa26c28811f2af8c80151/7cc5e/3d-concept_camera_3.jpg 480w,
+/static/a05e85e75a2aa26c28811f2af8c80151/29d31/3d-concept_camera_3.jpg 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0c795bda876bb481a65ff45d98406ad8/29d31/3d-concept_camera_4.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.14285714285715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB5byRTJB//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECMQMSE//aAAgBAQABBQLYbSOhG81s/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BR//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/Aar/xAAYEAACAwAAAAAAAAAAAAAAAAAAEAIhMv/aAAgBAQAGPwIsyor/xAAbEAACAgMBAAAAAAAAAAAAAAAAARExIUFhkf/aAAgBAQABPyFLTs2qtHD+mc3Y7UAmT//aAAwDAQACAAMAAAAQA+//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QQs3/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EE2Fn//EABsQAQADAQEBAQAAAAAAAAAAAAEAESExQYHB/9oACAEBAAE/ELgumjJ3+rFLueFY+pPyK/QDTHRU7z5CvnJ//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/0c795bda876bb481a65ff45d98406ad8/29d31/3d-concept_camera_4.jpg&quot;
+        srcset=&quot;/static/0c795bda876bb481a65ff45d98406ad8/09b79/3d-concept_camera_4.jpg 240w,
+/static/0c795bda876bb481a65ff45d98406ad8/7cc5e/3d-concept_camera_4.jpg 480w,
+/static/0c795bda876bb481a65ff45d98406ad8/29d31/3d-concept_camera_4.jpg 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;5-orthographic-size&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-orthographic-size&quot; aria-label=&quot;5 orthographic size permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. Orthographic Size&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Orthogonal Camera 에서만 사용 가능&lt;/li&gt;
+&lt;li&gt;Orthographic Size는 Zoom Level이 의미하는 것과 비슷한데, 숫자가 작을수록 가까운 곳에서 확대되어 보이고, 숫자가 클수록 먼 곳에서 축소되어 보이는 것입니다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[OpenGL 강좌 _ 1강. GLUT 환경설정]]></title><link>https://devlue.github.io/posts/opengl-1</link><guid isPermaLink="false">https://devlue.github.io/posts/opengl-1</guid><pubDate>Mon, 17 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2fe2c0f8ec491b1994b4544ee30a314b/8c557/opengl_1_0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACgElEQVQoz3VSWU8aYRTlB7URBxhnvlmcGRAHq1Vj40KBQWWoBa019sEo1i6gAwMmLu2DKNA0TfWhJI3DIgGtINqa+OA/6pVxw7TJyc33cr57zj3HML51HEjXfcmavH2DZFXO/BmdU6SRIcnjkdzuB/C4XKOSBA/DROrkaaLUoeQ7o4VrKLnO1UPh2RhH4BzLcgzzT8g+n8GXrIrRAhfWhEjuDssFWhwgMCOB4xRBkDgOQG1t9+H1eAzydtURKwgRzbqca0CzruStH7KIFwWGtvI80BiE2mmaIUmaJOEvHaBcJxf5iGZrkK9+UYrC4neK4SmiLRgMsgj5ZXl4cBBraaHv8W/JsDnHftwH8bZlTYiWhLk0DWIxrEsUF0MhRVFgc4cg4CYT2TByTQbPXWpxfKs6++331JfTV5kTu1rmZjYpM8ZSdMvjR5ufPx0f/0omk5eXl6mdHY5hwfDdZjhYd/xgaKPckzjoXz2wxyvtExEg0wjhZlNgMlA/rZ+fn19cXFQOD2emp0E/XEEn1+wr+eGNyuuvZ7A8mK4JsXK7NEeZW2kS4RZzYDKYSqWOjo6y2Ww6nV5aegviwfmN52jBruS748W+1VKPWrCpFXYogExGGlEWDOvr71tbX4+psdBiaHdv1zkyQlgsTQfjr3LWYPLhfZtaZno9QKZIBPbg4P4X/nA4PPtm1ul06oabyTc564ExjgHwTDWCeeJwLMwvLMzPj3q9wGmKqrlhGnRLeP+DEkRkMSGCgD2g3NzaajIaYT5s2MvUSW+iBJ7hCxGmWup8t8fxNo6m9A7zLHuL+932690OZuog3r9T88PMnMlrP72u5163+3+QXK4xSQLZfwEVF2aO918kiQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/2fe2c0f8ec491b1994b4544ee30a314b/8c557/opengl_1_0.png&quot;
+        srcset=&quot;/static/2fe2c0f8ec491b1994b4544ee30a314b/8ff5a/opengl_1_0.png 240w,
+/static/2fe2c0f8ec491b1994b4544ee30a314b/e85cb/opengl_1_0.png 480w,
+/static/2fe2c0f8ec491b1994b4544ee30a314b/8c557/opengl_1_0.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;opengl-구동-환경&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#opengl-%EA%B5%AC%EB%8F%99-%ED%99%98%EA%B2%BD&quot; aria-label=&quot;opengl 구동 환경 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;OpenGL 구동 환경&lt;/h4&gt;
+&lt;p&gt;OpenGL 강의에 사용되는 개발 환경은 Windows 10, Visual Studio 2017 이며, 사용되는 언어는 C 언어입니다.&lt;br /&gt;
+또한, OpenGL 버전은 현재 4.6 버전까지 나와있지만, 기본부터 설명해야 하기 때문에 1.0부터 시작하도록 하겠습니다.&lt;/p&gt;
+&lt;h4 id=&quot;1-glut-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-glut-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;1 glut 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. GLUT 설치&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.opengl.org/resources/libraries/glut/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.opengl.org/resources/libraries/glut/&lt;/a&gt; 에 들어가서 Pre-complied Win32 for Intel GLUT 3.7 DLLs for Windows 95 &amp;#x26; NT를 다운로드 받는다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 900px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8585c65ea77361b90a529f8ee4f93259/1cfc2/opengl_1_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 98.1111111111111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADKUlEQVQ4y5VT2XLbRhDkf+fBD678Sh7j8qNyWLYjSy5FpggSPHASAHFjARIkQYokyE7vWi7LshUlWzWFwQLb090z26mqCmEYYbFYIMsy5iHiOGaeIggC5EUB3/exXq/xo5UkMQaDgTp/OBzQKfIMk8lEgbi2DX2oYzQew7Ytte86LvSBjjRJsVqtUC9rzOdzVIy2bRHOZuhrGs8n2O8JmKYpRqMRLMuERRDXncI0TDiOTVAbpmXBmBgwDANjFhqNhiw0hud52B9aVFGEmP8JEtput+gIIWDzkJRbzSsISiwKgSLPVS4ll/xH3IfMS9okrVKSHQcuJSe0ZUnZHemVlGiapmIxYe7wJ4dsbdshaxu+N4U7nSr2Hp8WCXiej+PphII+p8wFla7qmh6SgQSYui4CVlnUC5SlIIMSVXnPTDIl41yxz5WH9XKJExnmvocZ7QpZeC4KdGqiyi46zhSO68GZerDJRL5bls0uJkipQlqSkIUQErRQ7zs2ISNjs/sJMT0t6GOnXNSwWWVeJqjLlM8YlYiYR5QgVGebzQYbRtM0KuQIrcjwcGyREcinTTmbs+IEdJrSgH/+E8L3L5BdvUQu4+PPWN68wDF8jedWTD+t3i1q2rBl0c7uboOpY8AcD5AlAUQeIU9D1FWGY7tTh040/7s4HtW3uixR0oqaXVeAclN2s9vtQuv10dP69CzH9m7HLkIN75GHHwN+KfR43QNa0DjtvZ4Gra9hoOtsjMN5K7GkVzIer4egD6Mjpzsj5SQMEEczXqUASRRivVpSQqPYyTsqmX6Jp8AUYMOOuWEGzU3Rd3jR7RmMIIMv1oiqNe72rTz6PyVHAlejGS6HHi7NDOejBO9GMRbN7snu/ghMAUp/ZpwhfxbSN49XKsAs/jy0ihlnrT20T0r+DlD642Zz6GEJI64wCAr0fIFxukTR7LFpT9+wel4yN/XhFGcfxnhzNcEfVwZenQ/xy5mGX9/o6Om8RYlAu27+m2RqgHnZxcXv17h5e4OL367x7uwa2l+3+Pv8Ez7+eY3hxS02YfwNy39tyob7q/brU0bDi7A+fs7bZ1g9XP8ASqrl1nZaDH8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/8585c65ea77361b90a529f8ee4f93259/1cfc2/opengl_1_1.png&quot;
+        srcset=&quot;/static/8585c65ea77361b90a529f8ee4f93259/8ff5a/opengl_1_1.png 240w,
+/static/8585c65ea77361b90a529f8ee4f93259/e85cb/opengl_1_1.png 480w,
+/static/8585c65ea77361b90a529f8ee4f93259/1cfc2/opengl_1_1.png 900w&quot;
+        sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;2-glut-라이브러리-압축해제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-glut-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%95%95%EC%B6%95%ED%95%B4%EC%A0%9C&quot; aria-label=&quot;2 glut 라이브러리 압축해제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. GLUT 라이브러리 압축해제&lt;/h4&gt;
+&lt;p&gt;glutdlls37beta.zip (18.12.17 기준) 파일이 받아지면, 압축을 해제합니다.&lt;br /&gt;
+폴더 내에는 glut.dll, glut32.dll, glut.h, glut.lib, glut32.lib 파일 목록이 보입니다.&lt;br /&gt;
+해당 파일들을 프로젝트에서 로드하기 위해서는 각각의 경로로 파일을 이동해야 합니다.&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;3-glut-라이브러리-경로설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-glut-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EA%B2%BD%EB%A1%9C%EC%84%A4%EC%A0%95&quot; aria-label=&quot;3 glut 라이브러리 경로설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. GLUT 라이브러리 경로설정&lt;/h4&gt;
+&lt;p&gt;윈도우 절대 경로로 설정 ( 한 번 지정해두면 Visual Studio 에서는 다음에 설정할 필요가 없음 )&lt;/p&gt;
+&lt;p&gt;  a. 절대 경로 확인 방법&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; (1) glut.h
+    - &amp;#39;C:\Program Files (x86)\Windows Kits\10\Include\&amp;lt;마지막버전&amp;gt;\um\gl&amp;#39; 폴더 내에 저장합니다.
+    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/44dae30b31db10818f1dad1e55846c2c/8c557/opengl_1_2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.71428571428571%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAqElEQVQY0z1P2xLEEBTz/1+5fdidKXVX9ELWOb1kJkQEIWr6QiqFZVkQY4RzDlJKXocQhlbMnDO8D+yTnkfGWouUErO1xr6gYc0FBDKJvfeXISYYF1hTrtZtJDuO42T9nCFQRlhjMX0mbNt+mzfvB6iFlDPUaFZKhTGGf/QU0FrzRQ+EDyt+s0YqO7YTqEe/eF40Y1/7BBszZ9yYyasjW/YGlwrO1t+Gf6t2Nm35NwIGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/44dae30b31db10818f1dad1e55846c2c/8c557/opengl_1_2.png&quot;
+        srcset=&quot;/static/44dae30b31db10818f1dad1e55846c2c/8ff5a/opengl_1_2.png 240w,
+/static/44dae30b31db10818f1dad1e55846c2c/e85cb/opengl_1_2.png 480w,
+/static/44dae30b31db10818f1dad1e55846c2c/8c557/opengl_1_2.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; (2) glut.lib, glut32.lib
+     - &amp;#39;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.16299.0\um\&amp;lt;빌드할 버전&amp;gt;&amp;#39; 폴더 내에 저장합니다.
+     &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8f25ea11eaa3b377cace7bc9ce6a09f7/29d31/opengl_1_3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.714285714285715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAB2QxUBf/EABcQAQEBAQAAAAAAAAAAAAAAAAEAEjH/2gAIAQEAAQUCG1HP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bp//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/AYf/xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAYEAADAQEAAAAAAAAAAAAAAAAAARExcf/aAAgBAQABPyFEw4GtH//aAAwDAQACAAMAAAAQhB//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREx/9oACAEDAQE/ELIx/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxCidf/EABgQAQEBAQEAAAAAAAAAAAAAABEBADFx/9oACAEBAAE/EKpXfdOIRxAHf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/8f25ea11eaa3b377cace7bc9ce6a09f7/29d31/opengl_1_3.jpg&quot;
+        srcset=&quot;/static/8f25ea11eaa3b377cace7bc9ce6a09f7/09b79/opengl_1_3.jpg 240w,
+/static/8f25ea11eaa3b377cace7bc9ce6a09f7/7cc5e/opengl_1_3.jpg 480w,
+/static/8f25ea11eaa3b377cace7bc9ce6a09f7/29d31/opengl_1_3.jpg 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; (3) glut.dll, glut32.dll
+     - Windows 10 64bit 인 경우 : &amp;#39;C:\Windows\SysWOW64&amp;#39; 폴더 내에 저장
+     - Windows 10 32bit 인 경우 : &amp;#39;C:\Windows\System32&amp;#39; 폴더 내에 저장
+     &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0c4750f18d905dd618fadc26ce648ffc/8c557/opengl_1_4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 15.285714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAtUlEQVQI10WN22rCQBRF8/+f0i8oSC3SvKRPPrQKtg8ar7lOzMw0iZk5q2NA3LBgwT6XqNc7tDaY9kqRZzSqprOGMvif0VzOJ+q6AgQ33sD7ycWN+ADicc5NaK2JlBnYXhRNJ5jQt2GnHcA4aHrhUBr2paayY/DwQFmKticPQ9l1QNkbIjJxT5TmDS8fK2bfJZ9nSE7y5Oh5W2XM1xnvm4rFj2L2deR1mRJvLfGuJ/kteOR+9B8VqeMbjkR/DAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/0c4750f18d905dd618fadc26ce648ffc/8c557/opengl_1_4.png&quot;
+        srcset=&quot;/static/0c4750f18d905dd618fadc26ce648ffc/8ff5a/opengl_1_4.png 240w,
+/static/0c4750f18d905dd618fadc26ce648ffc/e85cb/opengl_1_4.png 480w,
+/static/0c4750f18d905dd618fadc26ce648ffc/8c557/opengl_1_4.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;  b. 프로젝트의 상대 경로로 설정 ( 프로젝트 생성시 내가 원하는 위치에 있는 라이브러리를 로드함 ) - 차후 수정&lt;/p&gt;
+&lt;h4 id=&quot;4-c-콘솔-응용-프로그램에-링커-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-c-%EC%BD%98%EC%86%94-%EC%9D%91%EC%9A%A9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%97%90-%EB%A7%81%EC%BB%A4-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;4 c 콘솔 응용 프로그램에 링커 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. C++ 콘솔 응용 프로그램에 링커 추가&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual C++의 Windows 콘솔 응용 프로그램 생성 → 프로젝트 속성으로 들어감&lt;/li&gt;
+&lt;li&gt;링커(Linker) - 입력(Input) - 추가 종속성(Additional dependencies)의 맨 마지막 부분에 ;glut32.lib 추가 ★세미콜론 붙이고 glut32.lib&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2a7073ccfebaefeafa08316792cd6caa/8c557/opengl_1_5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.57142857142857%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACEUlEQVQ4y6WTW4+bMBCF+f+/pmqftmlf9vJQqWpScoEEgoFwv5glQIBwOR286SpbNW2ljvTJ1mCO7fEZSd3pCPxA4Ps+8jxH19bo6hLj+QSaAH1D1Di3LdorzudW5E51jSNREdJyreBg22AGQxCQsOdC1l3M5jZmCxcfFx4+yYFgu7dgMgbDmDCw3xswLQs7Wcby7g7mcglJM23YjgM/ilCcapRlAdnk+PAtwLuvPt7PEzyYAx5tIOAFMp4i5VyQJCmSlCMLQzxrGvjhAMlYbZCsVgg2G5R7HUWSIAgDaIoM19RwOqYAxgt/jrbrISmLFZz7Rzizz8jun5DOZfgJh6Ju4bge8mMhFvYDMAzjDQaM44h6quGG6hJZDr4/PIGtVMRUAs4zMGYiDCPUTSN2H+iH8QbTtynquqErmxaqUwWdilzTix3LEl3XiQViMe3+MsdNwfEi2NDmks4sFMccujbZxxen6vv+VfB6vBVvBPfMRpZxrNdr4UHhw6sT/itvTniwLcjkpSiOURQFGfb8f4I2CW7INiH5Kcuyv17xVrwKxnEEz/OEGCfD+pdalvRA04mL4udYiFxVVSgviHn5Mk7lkjTDREP+mRZPyUlQVRUsqY0YM6jF9qLd2NRqui424yl1S5r8AnVNEkNSyYf8OUdELRSnmSDNcpFLyI+/QzEDfFkz7Cxf2M12XGzJJQZ5+AfReij+5K6P0gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/2a7073ccfebaefeafa08316792cd6caa/8c557/opengl_1_5.png&quot;
+        srcset=&quot;/static/2a7073ccfebaefeafa08316792cd6caa/8ff5a/opengl_1_5.png 240w,
+/static/2a7073ccfebaefeafa08316792cd6caa/e85cb/opengl_1_5.png 480w,
+/static/2a7073ccfebaefeafa08316792cd6caa/8c557/opengl_1_5.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[C#/.NET Exception 종류와 설명]]></title><link>https://devlue.github.io/posts/csharp-tip</link><guid isPermaLink="false">https://devlue.github.io/posts/csharp-tip</guid><pubDate>Thu, 13 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6d20650652beb6d6a237c9895ae92687/8c557/csharp_exception.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACjElEQVQ4y42US3MSQRSF+UFJQYDpnsnMQEKUSFAIISEqr0B4BWIhj6TMLmZllVVurHLrP3BhlXvduDBL3SgDkUdCLFf6B463G0KCpcbFV0NPNWf63Htu23o799B/mEGvHEd/N4F+ZUSX+E7rF9k4YvfjSMfjSP2FJLGVTCKdSMDWr27hJHYD7ZCO9qo5oRU2MYyYqPoMMN3AomHAew357W3YepU4CXhgBRisIIe1cskJrVM6g1Nh0DmDxv6NOKVN2OyseaVA+7YmsYgO8SmoIaqrYFyFoRKaNoU+fiee85wjk0pNC16ICsEu8SGgwq9xcPq6qihgTieUKzCXC+65OXC3W4pOBEXNrICCTnQR1rIbX4h+UMW7gAZOQsV8Hlu0+W4sJv8kfpcKBewUi8hlMlgLh6VoNp0e1bCzvojh4yYGewXJ+fMnOI148NqvwuEmQSp2o1ZDuVRCs17H0eEhSvSRvUYDj/b3EYtGwem0I8HiJrr5dXx7doTWkh0/3rzCz/dvMYwu4KWPGsK43OxyOOCy26VNj67LtX1mBo7ZWWl/2jJFZNAs4PSggkEjh6+7SZytMDxdYDB9S4hFIijkctJiKBhEdHVVnm63XMY2Wd7c2PitKREvWn7nqCFUv8/E+R0NBx4GbnqQoTjUq1XksllEQiGsLC+jTOL7zSZq9F6IithkhOVJl6kJo9jMo0XPMxIse6iGIoNMkVZF4S8yd1EGYVckYMry1Rxa4ywKkoYKF2XQpM36H7iax4nl6UlRJxPyMcAR1hgUOs08u35KLidFzvLN8SyTMGWyRxyHTNwyDZg0owv/MceCgpxlumUGtSzESfvU3S5x/iCJ450EEnR7iBskdR3ithkH/hddJXSDeP7dXQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Image&quot;
+        title=&quot;Image&quot;
+        src=&quot;/static/6d20650652beb6d6a237c9895ae92687/8c557/csharp_exception.png&quot;
+        srcset=&quot;/static/6d20650652beb6d6a237c9895ae92687/8ff5a/csharp_exception.png 240w,
+/static/6d20650652beb6d6a237c9895ae92687/e85cb/csharp_exception.png 480w,
+/static/6d20650652beb6d6a237c9895ae92687/8c557/csharp_exception.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Exception Type&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Exception&lt;/td&gt;
+&lt;td&gt;.NET Framework에서 모든 예외들의 Main 클래스&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AmbiguousMatchException&lt;/td&gt;
+&lt;td&gt;클래스를 호출했는데, 어떤 클래스인지 확인할 수 없을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ArgumentException&lt;/td&gt;
+&lt;td&gt;메서드의 Argument(Parameter)가 유효하지 않을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ArgumentNullException&lt;/td&gt;
+&lt;td&gt;메서드의 Argument가 허용할 수 없는 null Reference 일 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ArgumentOutOfRangeException&lt;/td&gt;
+&lt;td&gt;메서드의 Argument가 허용할 수 없는 범위 외의 값일 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AppDomainUnloadedException&lt;/td&gt;
+&lt;td&gt;로드되지 않은 어플리케이션 도메인에 접근하려고 할 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ArithmeticException&lt;/td&gt;
+&lt;td&gt;계산상의 오류가 있을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ArrayTypeMismatchException&lt;/td&gt;
+&lt;td&gt;두 배열이 동일한 타입의 배열인지 확인한 뒤 같지 않을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BadImageFormatException&lt;/td&gt;
+&lt;td&gt;DLL이나 실행 프로그램의 이미지가 올바르지 않을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CannotUnloadAppDomainException&lt;/td&gt;
+&lt;td&gt;어플리케이션의 도메인 언로드에 실패할 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ConfigurationException&lt;/td&gt;
+&lt;td&gt;환경설정의 오류가 있을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ContextMarshalException&lt;/td&gt;
+&lt;td&gt;마샬링(아래 설명추가)을 하는데 실패할 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CryptographicExcpetion&lt;/td&gt;
+&lt;td&gt;암호화 작업중 오류가 있을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DataException&lt;/td&gt;
+&lt;td&gt;.NET 구성 요소를 사용해서 오류가 있을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DivideByZeroException&lt;/td&gt;
+&lt;td&gt;0으로 나눗셈을 하려고 할 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ExecutionEngineException&lt;/td&gt;
+&lt;td&gt;실행 엔진 오류가 있을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- .NET 4.5부터는 사용하지 않음&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ExternalException&lt;/td&gt;
+&lt;td&gt;모든 COM interop 예외 및 SEH 예외에 대한 기본 예외 형식&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;*대표적인 케이스&lt;br /&gt;- Data.Common.DbException&lt;br /&gt;- Data.OleDb.OleDbException&lt;br /&gt;- Messaging.MessageQueueException&lt;br /&gt;- Runtime.InteropServices.COMException&lt;br /&gt;- Runtime.InteropServices.SEHException&lt;br /&gt;- Web.HttpException&lt;br /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FileNotFoundException&lt;/td&gt;
+&lt;td&gt;찾는 파일이 없을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FormatException&lt;/td&gt;
+&lt;td&gt;Argument로 쓰이는 문자열 서식이 잘못되거나 그 사양에 맞지 않을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IndexOutOfRangeException&lt;/td&gt;
+&lt;td&gt;배열에서 찾고자 하는 인덱스(순서)가 범위 밖에 있을 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;InvalidCastException&lt;/td&gt;
+&lt;td&gt;Type Casting 에 실패할 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NullReferenceException&lt;/td&gt;
+&lt;td&gt;참조하는 Reference가 null일 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;OutOfMemoryException&lt;/td&gt;
+&lt;td&gt;메모리 영역을 넘어가는 값이나 Reference를 가져올 때 발생&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br /&gt;
+ 
+#### * Exception
+ ApplicationException / SystemException / IOException 등의 부모 클래스
+&lt;h4 id=&quot;-systemexception&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-systemexception&quot; aria-label=&quot; systemexception permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* SystemException&lt;/h4&gt;
+&lt;p&gt; ArithmeticException / ArgumentException / OutOfMemoryExcpetion / NullReferenceException / IndexOutOfRangeException 등의 부모 클래스&lt;/p&gt;
+&lt;h4 id=&quot;-ioexception&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-ioexception&quot; aria-label=&quot; ioexception permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* IOException&lt;/h4&gt;
+&lt;p&gt;EndOfStreamException / FileNotFoundException / DirectoryNotFoundException 등의 부모 클래스&lt;/p&gt;
+&lt;h4 id=&quot;-arithmeticexception--계산상의-오류-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-arithmeticexception--%EA%B3%84%EC%82%B0%EC%83%81%EC%9D%98-%EC%98%A4%EB%A5%98-&quot; aria-label=&quot; arithmeticexception  계산상의 오류  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* ArithmeticException ( 계산상의 오류 )&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;DivideByZeroException&lt;/li&gt;
+&lt;li&gt;OverflowException&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-argumentexception--argument-오류---파라미터-관련-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-argumentexception--argument-%EC%98%A4%EB%A5%98---%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EA%B4%80%EB%A0%A8-&quot; aria-label=&quot; argumentexception  argument 오류   파라미터 관련  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* ArgumentException ( Argument 오류 - 파라미터 관련 )&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;ArgumentOutOfRangeException&lt;/li&gt;
+&lt;li&gt;ArgumentNullException&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-마샬링marshalling이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%A7%88%EC%83%AC%EB%A7%81marshalling%EC%9D%B4%EB%9E%80&quot; aria-label=&quot; 마샬링marshalling이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;* 마샬링&lt;Marshalling&gt;이란?&lt;/h4&gt;
+&lt;p&gt;데이터를 전송하기 위한 포맷으로 변환하는 것을 말한다. ( 전송하기 위해 만들었던 포맷을 다시 되돌리는 것은 언마샬링&lt;Unmarshalling&gt;)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[OpenGL 강좌 _ 0강. 개요]]></title><link>https://devlue.github.io/posts/opengl-0</link><guid isPermaLink="false">https://devlue.github.io/posts/opengl-0</guid><pubDate>Wed, 12 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 700px;&quot;
     &gt;
