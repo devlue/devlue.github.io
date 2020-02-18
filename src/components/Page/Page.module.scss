@@ -26,7 +26,7 @@
 
 @include breakpoint-sm {
   .page {
-    lost-column: 7/12;
+    lost-column: 3/4;
 
     &__inner {
       padding: 30px 20px;
@@ -38,7 +38,7 @@
 
 @include breakpoint-md {
   .page {
-    lost-column: 2/3;
+    lost-column: 3/4;
 
     &__inner {
       padding: 40px 35px;
