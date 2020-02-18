@@ -36,6 +36,15 @@ const Layout = ({
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
       </Helmet>
+      <header className={styles.devlue_head}>
+        <div className={styles.wrap_head}>
+          <h1 className={styles.tit_logo}>
+            <a href='/' className={styles.link_devlue}>
+              <span className={styles.tit_service}></span>
+            </a>
+          </h1>
+        </div>
+      </header>
       {children}
     </div>
   );

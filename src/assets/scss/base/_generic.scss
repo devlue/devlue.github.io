@@ -1,8 +1,10 @@
-/** 
+/**
  * Generic
  */
 html {
   font-size: $typographic-root-font-size;
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
 }
 
 body {
@@ -29,10 +31,14 @@ h6 {
 }
 
 h1 {
-  font-size: $typographic-base-font-size * 2.5;
-  @include line-height(2);
-  @include margin-top(4);
-  @include margin-bottom(1);
+
+  //font-size: $typographic-base-font-size * 2.5;
+  //@include line-height(2);
+  //@include margin-top(4);
+  //@include margin-bottom(1);
+
+  @include margin-top(0);
+  @include margin-bottom(0);
 }
 
 h2 {

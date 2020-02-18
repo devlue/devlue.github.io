@@ -26,6 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'SeokJae Kang',
+    logo: '/logo1.png',
     photo: '/001.jpg',
     bio: '준비중',
     contacts: {

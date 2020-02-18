@@ -1,6 +1,80 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
+.devlue_head {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform 300ms;
+    -moz-transition: -moz-transform 300ms;
+    -o-transition: -o-transform 300ms;
+    transition: transform 300ms;
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(1, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.wrap_head {
+    max-width: 1160px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tit_logo {
+    float: left;
+    margin: 0 20px 0;
+}
+
+@include breakpoint-sm {
+    .tit_logo {
+        float: left;
+        margin: 0 20px 0;
+    }
+}
+
+@include breakpoint-md {
+    .tit_logo {
+        float: left;
+        margin: 0;
+    }
+}
+
+@include breakpoint-lg {
+    .tit_logo {
+        float: left;
+        margin: 0;
+    }
+}
+
+.tit_service {
+    display: block;
+    overflow: hidden;
+    height: 30px;
+    margin-top: 20px;
+    background: url('./logo2.png') no-repeat 0 0;
+    text-indent: -9999px;
+}
+
+.link_devlue {
+    display: block;
+    overflow: hidden;
+    width: 90px;
+    height: 70px;
+    padding: 0 10px 0;
+}
+
+.box_gnb {
+    display: block;
+}
+
 .layout {
+    padding-top: 102px;
     lost-center: $layout-width;
 }
